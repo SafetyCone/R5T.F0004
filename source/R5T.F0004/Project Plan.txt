@@ -1,3 +1,8 @@
-R5T.F0004 - Initial, simple, Roslyn syntax element generation functionality.
+R5T.F0004 - Generation, initial, simple, functionality for for all three Roslyn syntax element types: SyntaxTrivia, SyntaxTokens, and SyntaxNodes.
 
-GOALS:
+
+Allowed Dependencies:
+
+* R5T.L0011 - Microsoft.CodeAnalysis package selector.
+* R5T.T0132 - FunctionalityMarker attribute and interface.
+* R5T.Z0000 - Common values of .NET C# built-in types, like characters, strings, integers, etc.
